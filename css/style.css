@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+}
+
+#intro {
+    position: relative;
+    background-color: #000;
+}
+
+.rel {
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+.tit-wrap {
+    color: #fff;
+    text-align: left;
+}
+.tit-wrap p {
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+
+
+
+header {
+    position: fixed;
+    z-index: 3;
+    color: #fff;
+    top: 0;
+    width: 100%;
+}
+
+header .rel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 60px;
+}
+
+
+#intro .rel,
+#s1 .rel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.typo-wrap {
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.typo-wrap span {
+    display: block;
+    font-size: 500px;
+    color: white;
+    font-weight: 900;
+    text-shadow: 3px 3px 5px #00000086;
+    position: absolute;
+    line-height: 500px;
+}
+.typo-wrap span.t1 {
+    top: -200px;
+    left: -200px;
+    color: #00ff0d;
+    z-index: 2;
+}
+.typo-wrap span.t2 {
+    color: #006eff;
+    z-index: 2;
+}
+.typo-wrap span.t3 {
+    right: -100px;
+    bottom: -300px;
+    color: #ff0000;
+    z-index: 2;
+}
+
+
+#s1 {
+    background-color: gray;
+}
+
+#s1 .tit-wrap {
+    color: black;
+    order: 2;
+}
