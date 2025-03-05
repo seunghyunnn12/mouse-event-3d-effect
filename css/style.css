@@ -61,14 +61,14 @@ section h2 {
 
 
 .typo-wrap {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     position: relative;
 }
 
 .typo-wrap span {
     display: block;
-    font-size: 500px;
+    font-size: 300px;
     color: white;
     font-weight: 900;
     text-shadow: 3px 3px 5px #00000086;
@@ -83,10 +83,12 @@ section h2 {
 }
 .typo-wrap span.t2 {
     color: #006eff;
+    right: 100px;
+    left: -100px;
+    top: -100px;
     z-index: 2;
 }
 .typo-wrap span.t3 {
-    right: -100px;
     bottom: -300px;
     color: #ff0000;
     z-index: 2;
